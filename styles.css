@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: Times New Roman;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 2;
+}
+
+/* Header & Navigation - Added padding to increase the size of the header*/
+header {
+    background-color: #333;
+    padding: 14px 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 25px;
+}
+
+header nav ul li a:hover {
+    color: blue;
+}
+
+/* Main Content */
+main {
+    padding: 10px;
+}
+
+.hero {
+    background-color: #a5c1de;
+    padding: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #000000;
+}
+
+.image img {
+    margin: 0 auto;
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
+
+/* Section for the D3 line plot */
+.d3_vis {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the plot container */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Line plot hover effect for path elements */
+#lineplot path:hover {
+    stroke: #ff5733; /* Change line color to orange on hover */
+    stroke-width: 3;  /* Increase stroke width on hover */
+}
+
+.contact {
+    background-color: #a5c1de;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+}
+
+.contact p {
+    font-size: 26px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #333;
+    color: white;
+    position: fized;
+    width: 100%;
+    bottom: 0;
+    font-size: 30px;
+}
+
+/* Additional Styling */
+ul {
+    font-size: 20px;
+    padding-left: 10px;
+}
