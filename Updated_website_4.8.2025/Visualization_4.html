@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization #4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Creating the header with title and navigation menu -->
+    <div class="header-top">
+        <h1>Analysis of Historical Basketball Statistics for Purposes of Historical Analysis</h1>
+    </div>
+
+    <!-- Creating the website's Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Project Introduction (Group #21)</a></li>
+                <li><a href = "Visualization_1.html">Visualization #1</a></li>
+                <li><a href = "Visualization_2.html">Visualization #2</a></li>
+                <li><a href = "Visualization_3.html">Visualization #3</a></li>
+                <li><a href = "Visualization_4.html">Visualization #4</a></li>
+                <li><a href = "Visualization_5.html">Visualization #5</a></li>
+                <li><a href = "Conclusions.html"> Project Conclusions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class = "hero">
+            <h1>Visualization #4:</h1>
+            <h1>Line plot showing the Average True Shooting % by Age for the 2017 season</h1>
+            <p>This chart compares Average True Shooting % for players of every age.</p>
+            
+            <div id="visualization"></div>
+        </section>
+
+        <section class = 'd3_vis'
+        
+            h1>Visualization #4: Average True Shooting % by Age for the 2017 NBA Season</h1>
+            <div id="lineplot"></div>
+        
+            <script src='https://d3js.org/d3.v7.min.js'></script>
+            <script src='templete.js'></script>   
+        
+        </section>
+
+        <section class="container">
+            <section class="visualization-takeaways">
+                <h1> Why We Chose This Data To Analyze: </h1>
+                <p> Analyzing true shooting over the NBA population can help display the scoring efficiency of players as they age, showing if players that remain in the league maintain the same efficiency as young players entering the league. Players can be kept on rosters as glue guys or due to long contracts, so analyzing the older ages can give a more accurate picture for the prime ages for scoring efficiency and aging offensive contributions. </p>
+        </section>
+        
+        <section class="future-analysis">
+                <h1> Takeaways From Our Visualization: </h1>
+                <p> Through the prime ages of a player’s career, the curve stays mostly flat across their 20s to early 30s, hovering just above .55 TS%. There are still slight variations through ages 20-24, which can be indicative of NBA rookies that are trying to find their footing in the league. Poor shot selection or being encouraged to endlessly shoot can lead to young players being less efficient, even if their scoring output is still strong. </p>
+                <h2> Takeaway #1: Players stay consistent with Age: </h2>
+                <p> This displays that players maintain consistent shooting efficiency across their peak athletic years in the association. Then, as the player totals begin to thin, the TS% begins to fluctuate, rising at age 35/36 with strong players like Dwayne Wade, powerhouse Zach Randolph, and sharpshooter Kyle Korver. The data visualization fluctuates most when the sample size is low, as past age 35 average percentage is dictated by 10 players at most. </p>
+                <h2> Outlier Analysis: </h2>
+                <p> There was only one player aged 37 in the NBA in 2017, Metta World Peace aka Ron Artest who is known as an 4x all-defensive team and the 2004 DPOY. His shooting percentages throughout the majority of his career are quite poor, so the large dip in TS% being from a former defensive allstar with limited minutes is understandable.</p>
+        </section>
+
+    </section>
+    
+    </main>
+
+    <footer>
+        <p>&copy; Group #21 Final Project (DS4200). All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
