@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>DS4200 Final Project - Group #21</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+
+    <!-- Creating the header with title and navigation menu -->
+    <div class="header-top">
+        <h1>Shooting for Insights:</h1>
+        <h1>A Historical Analysis of Basketball Performance Trends Over Time</h1>
+    </div>
+    
+    <!-- Creating the website's Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Project Introduction (Group #21)</a></li>
+                <li><a href = "Visualization_1.html">Visualization #1</a></li>
+                <li><a href = "Visualization_2.html">Visualization #2</a></li>
+                <li><a href = "Visualization_3.html">Visualization #3</a></li>
+                <li><a href = "Visualization_4.html">Visualization #4</a></li>
+                <li><a href = "Visualization_5.html">Visualization #5</a></li>
+                <li><a href = "Conclusions.html"> Project Conclusions</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content of the website -->
+    <main>
+        <section class = "hero">
+            <h1>Visualizing Historical Stats in Basketball </h1>
+            <p>Our names are Ryan, Luke, and Kyle, and we are passionate about the game of basketball! </p>
+            <p> For our project, we decided to use the statistics provided on Kaggle to analyze different statistics derived from the game. We are hoping to analyze the data through visualizations in Altair, Plotly, and D3 HTML and make some interesting insights into the different stats. Thanks for joining us on this journey and taking a look at our final project!</p>
+            <p1> Link to our dataset: https://www.kaggle.com/datasets/drgilermo/nba-players-stats?select=Seasons_Stats.csv</p>
+        </section>
+
+        <section class="image">
+            <img src="https://static01.nyt.com/images/2016/04/17/sports/17-DOG-SCORE1/17-DOG-SCORE1-superJumbo.jpg?quality=75&auto=webp" alt="Basketball Image">
+        </section>
+        
+
+        <section class="container">
+            <section class="visualization-takeaways">
+                <h1> Why We Chose to Analyze Basketball Stats: </h1>
+                <p> As students who are interested in the sport of Basketball, we chose this project because we found it to be a great way to learn about data visualizations since there is so much data out there to analyze. </p>
+                <p> We felt being able to create our own visualization to compare with professionally created databases will be helpful for improving our understanding of the game and the NBA.</p>
+            </section>
+        
+            <section class="future-analysis">
+                <h1> What we hope to gain from this analysis: </h1>
+                <p> - Gain a stronger understanding of advanced basketball statistics</p>
+                <p> - Better appreciating those players in the NBA who performed well (for Hall of Fame consideration analysis)</p>
+                <p> - Finding statistical outliers to understand what it takes be at the top of the league</p>
+            </section>
+        </section>
+
+    <section class="hero-2">
+        <h1> Information about the Data, Data Cleaning, and Analysis </h1>
+        <h2> 1. Our Data Source: </h2>
+        <p> We sourced our data set from Kaggle.com. The data we utilized contained an extremely diverse set of data features basketball players earn during the course of the season. Some of the stats we found included:</p>
+        <ul>
+            <li># of games played</li>
+            <li>Points, Assists, Rebounds earned per season</li>
+            <li>Player Name, Age, Team, Position, and season year played</li>
+            <li>Player shooting stats including True Shooting % (TS%), 3 Point Shooting % (3P%), 2 Point Shooting % (2P%), and Free Throw Shooting % (FT%)</li>
+            <li>And some advanced stats including VORP (Value over Replacement) (For more information on these stats check out this glossary (Link: https://www.basketball-reference.com/about/glossary.html))</li>
+        </ul>
+
+        <h2>Facts about our dataset:</h1>
+        <ul>
+            <li>Our data initially contained player data from the Years 1950 - 2017</li>
+            <li>Our data contained over 15,000 rows of data, and over 50 total features</li>
+            <li>We performed some feture engineering to better understand the stats we found</li>
+        </ul>
+
+        <h2> 2. Feature Engineering, and data cleaning:</h2>
+        <ul>
+            <li>For Points, Assists, and Rebounds, we divided the totals for each player by the number of games they played in a season to calcuate Average Points, Assists, and Rebounds per game.</li>
+            <li>We created a Hybrid Statistic Using an equally weighted average for a Player's PPG, ASTPG, and REBPG</li>
+        </ul>
+
+        <h2> 3. Narrowing down the dataset to include the most recent historical years.</h2>
+        <ul>
+            <li> Using Python, we created a recent_stats_df, which contains data from the years 2004 - 2017</li>
+            <li> We did this to ensure we could model our data using Altair, and also because these years are the most recent, and most likely the most relevant for the purposes of our analysis</li>
+        </ul>
+
+    </section>
+
+        <section class="contact">
+            <h1>Contact Us!:</h1>
+            <p>If you have any questions or want to discuss our final project, feel free to reach out!</p>
+            <p>Ryan: <a href="mailto:your-email@example.com">caress.r@northeastern.edu</a></p>
+            <p>Kyle: <a href="mailto:your-email@example.com">farnesi.k@northeastern.edu</a></p>
+            <p>Luke: <a href="mailto:your-email@example.com">Kreysar.l@northeastern.edu</a></p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; Group #21 Final Project (DS4200). All rights reserved.</p>
+    </footer>
+
+
